@@ -14,7 +14,7 @@ while True:
     input_text ="hello, how are you doing?"
 
     inputs = tokenizer.encode_plus(history_string, input_text, return_tensors="pt")
-    tokenizer.pretrained_vocab_files_map
+    ##tokenizer.pretrained_vocab_files_map
 
     print(inputs)
 
